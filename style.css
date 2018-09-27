@@ -1,0 +1,61 @@
+body{
+    background: url("book1.jpg");
+
+}
+#wrap{
+    overflow: scroll;
+    height: 450px;
+}
+
+#menuList {
+    display: inline-flex;
+    text-align: center;
+    width: 100%;
+}
+#menuList li {
+    list-style: none;
+    width: 20%;
+}
+#menuList  a {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    background: floralwhite;
+    font-weight: bold;
+    color: black;
+}
+#menuList a:hover {
+    color: orangered;
+    background: black;
+}
+
+.catalogDiv {
+    border: 3px groove  black;
+    padding: 5px 10px;
+    height: 320px;
+    background: beige;
+    margin: 20px;
+}
+
+.catalogDiv p{
+    padding: 10px;
+}
+
+.catalogDiv img{
+    float: left;
+    width: 200px;
+    height: 300px;
+}
+
+a:link{
+    color: darkgreen;
+    font-family: cursive;
+}
+
+a:hover{
+    color: gray;
+}
+a:visited{
+    color: red;
+}
